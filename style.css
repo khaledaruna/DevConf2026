@@ -6,33 +6,41 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     background: #fff;
+    margin: 0;
+
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Inter', serif;
     font-weight: 700;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-}
+
 /* ================================================= */
 /* ------------------ Header CSS ------------------- */
 /* ================================================= */
 
 #header {
-    padding: 12px 0;
-    height: 98px;
 
+    padding: 20px 115px;
+
+}
+
+/* ================================================= */
+/* ------------------ Container CSS ------------------- */
+/* ================================================= */
+.container{
+    padding: 0;
+    max-width: 1320px;
+    margin: auto;
 }
 
 /* ================================================= */
@@ -66,3 +74,46 @@ padding: 12px 24px;
 font-weight: bold;
 
  }
+
+ /* ================================================= */
+/* ------------------ Hero Section CSS ------------------- */
+/* ================================================= */
+
+#hero{
+  max-height: 100vh;
+    padding: 0 115px;
+         background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,0.30) 30%,
+            rgba(0,0,0,0.70) 60%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,0.00) 42%,
+            rgba(0,0,0,0.88) 87%
+        ),
+        url("./assets/banner.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+h1{
+    font-size: 80px;
+    color: #ffffff;
+    line height: -3.2px;
+}
+.hero-content{
+    width: 80;
+    margin: 0 auto;
+    display; flex;
+    text-align: center;
+    align-items: center;
+    padding: 250px 0;
+}
+.hero-content p{
+    color: #f7f7f7;
+    padding: 10px 120px;
+    font-size: 22px;
+}
