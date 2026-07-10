@@ -26,6 +26,11 @@ h6 {
 a{
     text-decoration: none;
 }
+
+
+img{
+    max-width: 100%;
+}
 /* ================================================= */
 /* ------------------ Header CSS ------------------- */
 /* ================================================= */
@@ -104,16 +109,17 @@ font-weight: bold;
 h1{
     font-size: 80px;
     color: #ffffff;
-    line height: -3.2px;
+    line-height: -3.2px;
 }
 .hero-content{
     padding-top: 60px;
-    margin-bottom: 350px;
-    display; flex;
+    
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
-    
-    
+    margin: 0 auto;
+    margin-bottom: 300px;
 }
 .hero-content p{
     max-width: 800px;
@@ -123,11 +129,13 @@ h1{
     font-size: 22px;
 }
 
+
  .bottom-content .primary-button{
     padding: 25px 60px;
     font-size: 24px;
     display: flex;
-    margin: 0 auto;
+  
+    margin: auto;
  }
 
  /* ================================================= */
@@ -211,6 +219,7 @@ h2{
     padding: 32px;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
+    gap: 20px;
 }
 .secondary-button{
     width: 100%;
@@ -229,4 +238,29 @@ h2{
 .pricing-card p{
     font-size: 13px;
     font-weight: 400;
+}
+
+ /* ================================================= */
+/* ------------------ Venue Section CSS ------------------- */
+/* ================================================= */
+#venue{
+    padding: 80px 60px;
+}
+.venue-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+.venue-map{
+    width: 65%;
+}
+
+ /* ================================================= */
+/* ------------------ Footer Section CSS ------------------- */
+/* ================================================= */
+#footer{
+    padding: 80px 60px;
+    background-color: #000102;
 }
