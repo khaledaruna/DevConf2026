@@ -1,0 +1,68 @@
+/* ================================================= */
+/* ------------------ General CSS ------------------ */
+/* ================================================= */
+body {
+    color: #575757;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+/* ================================================= */
+/* ------------------ Header CSS ------------------- */
+/* ================================================= */
+
+#header {
+    padding: 12px 0;
+    height: 98px;
+
+}
+
+/* ================================================= */
+/* ------------------ Nav menu CSS ------------------- */
+/* ================================================= */
+
+#nav-menu-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #575757;
+}
+
+.primary-button{
+font-size: 16px;
+color: #ffffff;
+background-color: #1D4ED8;
+border: none;
+border-radius: 12px;
+padding: 12px 24px;
+font-weight: bold;
+
+ }
