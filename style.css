@@ -23,7 +23,9 @@ h6 {
     padding: 0;
 }
 
-
+a{
+    text-decoration: none;
+}
 /* ================================================= */
 /* ------------------ Header CSS ------------------- */
 /* ================================================= */
@@ -80,7 +82,7 @@ font-weight: bold;
 /* ================================================= */
 
 #hero{
-  max-height: 100vh;
+
     padding: 80px 60px;
          background:
         linear-gradient(
@@ -105,21 +107,27 @@ h1{
     line height: -3.2px;
 }
 .hero-content{
-    width: 75%;
-    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 350px;
     display; flex;
     text-align: center;
     align-items: center;
-    padding: 200px 0;
+    
+    
 }
 .hero-content p{
+    max-width: 800px;
+    margin: 20px auto;
     color: #f7f7f7;
-    padding: 10px 30px;
+    
     font-size: 22px;
 }
- .hero-content .primary-button{
+
+ .bottom-content .primary-button{
     padding: 25px 60px;
     font-size: 24px;
+    display: flex;
+    margin: 0 auto;
  }
 
  /* ================================================= */
@@ -135,14 +143,14 @@ h2{
     color: #000102;
 
 }
-.top-content{
+.section-header{
     margin-bottom: 56px; 
     text-align: center;
 }
 
 .speaker-grid{
 
-    display:grid;
+    display: grid;
 
     grid-template-columns:repeat(2,1fr);
 
@@ -156,7 +164,7 @@ h2{
     overflow:hidden;
 
     background:white;
-
+    border: 1px solid #E5E7EB;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 }
@@ -178,4 +186,47 @@ h2{
     font-size: 14px;
     color: #575757;
 
+}
+
+
+ /* ================================================= */
+/* ------------------ Pricing Section CSS ------------------- */
+/* ================================================= */
+#price{
+    padding: 80px 60px;
+}
+
+.section-header p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 24px;
+}
+
+.pricing-card{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.secondary-button{
+    width: 100%;
+    border: 1px solid #1D4ED8;
+    padding: 12px 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.pricing-card h2{
+    font-size: 44px;
+}
+.pricing-card h4{
+    font-size: 13px;
+    
+}
+.pricing-card p{
+    font-size: 13px;
+    font-weight: 400;
 }
