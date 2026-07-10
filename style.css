@@ -30,7 +30,7 @@ h6 {
 
 #header {
 
-    padding: 20px 115px;
+    padding: 20px 60px;
 
 }
 
@@ -70,7 +70,7 @@ color: #ffffff;
 background-color: #1D4ED8;
 border: none;
 border-radius: 12px;
-padding: 12px 24px;
+padding: 12px 25px;
 font-weight: bold;
 
  }
@@ -81,7 +81,7 @@ font-weight: bold;
 
 #hero{
   max-height: 100vh;
-    padding: 0 115px;
+    padding: 80px 60px;
          background:
         linear-gradient(
             180deg,
@@ -105,15 +105,77 @@ h1{
     line height: -3.2px;
 }
 .hero-content{
-    width: 80;
+    width: 75%;
     margin: 0 auto;
     display; flex;
     text-align: center;
     align-items: center;
-    padding: 250px 0;
+    padding: 200px 0;
 }
 .hero-content p{
     color: #f7f7f7;
-    padding: 10px 120px;
+    padding: 10px 30px;
     font-size: 22px;
+}
+ .hero-content .primary-button{
+    padding: 25px 60px;
+    font-size: 24px;
+ }
+
+ /* ================================================= */
+/* ------------------ Speaker Section CSS ------------------- */
+/* ================================================= */
+
+#speaker{
+    padding: 80px 60px;
+}
+h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+
+}
+.top-content{
+    margin-bottom: 56px; 
+    text-align: center;
+}
+
+.speaker-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+.speaker-card{
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    background:white;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+.spearker-info{
+    padding:24px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.spearker-info span{
+    font-size: 12px;
+    color: #1D4ED8;
+}
+.spearker-info h3{
+    font-size: 20px;
+    color: #0D1B2A;
+}
+.spearker-info p{
+    font-size: 14px;
+    color: #575757;
+
 }
