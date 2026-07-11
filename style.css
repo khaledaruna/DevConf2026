@@ -79,6 +79,7 @@ border: none;
 border-radius: 12px;
 padding: 12px 25px;
 font-weight: bold;
+transition:.3s;
 
  }
 
@@ -131,11 +132,18 @@ h1{
 
 
  .bottom-content .primary-button{
-    padding: 25px 60px;
+    padding: 20px 50px;
     font-size: 24px;
     display: flex;
   
     margin: auto;
+ }
+
+ .bottom-content .primary-button:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
  }
 
  /* ================================================= */
@@ -174,6 +182,14 @@ h2{
     background:white;
     border: 1px solid #E5E7EB;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.speaker-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
 
 }
 .spearker-info{
@@ -215,11 +231,59 @@ h2{
     gap: 24px;
 }
 
+
 .pricing-card{
     padding: 32px;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pricing-card2{
+    background-color: #000102;
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
     gap: 20px;
+   
+}
+
+.p-card-top{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.pricing-card2 h2{
+    color: #f7f7f7;
+   
+}
+.pricing-card2 h4{
+    color: #f7f7f7;
+}
+
+.pricing-card2 p{
+    color: #fff;
+}
+.pricing-card2 .feature-list{
+    color: #fff;
+    transform:scale(1.05);
+}
+.pricing-card2 .secondary-button{
+    background-color: #1D4ED8;
+    color: #ffffff;
+}
+.feature-list{
+    color: #000;
+    padding-left: 20px;
+}
+
+.feature-list li{
+    margin-bottom: 12px;
+}
+
+.feature-list li::marker{
+    color: #1D4ED8;
 }
 .secondary-button{
     width: 100%;
@@ -250,11 +314,14 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 50px;
     margin: 0 auto;
 }
 .venue-map{
-    width: 65%;
+    width: 60%;
+}
+.venue-info{
+    width: 40%;
 }
 
  /* ================================================= */
@@ -264,3 +331,113 @@ h2{
     padding: 80px 60px;
     background-color: #000102;
 }
+.footer-content-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 30px auto;
+}
+.footer-left{
+    width: 30%;
+}
+.footer-middle{
+    width: 30%;
+
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-column h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-column p {
+  line-height: 1.6;
+  color: #d1d5db;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.form{
+    display: flex;
+    
+    align-items: center;
+    
+   
+}
+.form input{
+    padding: 10px 14px;
+}
+.form button{
+    padding: 10px 14px;
+   background-color: #1D4ED8;
+    color: #f7f7f7;
+}
+.social-links{
+    margin: 20px 10px;
+    display: flex;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    gap: 16px;
+}
+.footer-right{
+    width: 30%;
+}
+.footer-right h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.copyright p{
+    color: #adadad;
+    font-size: 13px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #3a3a3a ;
+}
+.footer-bottom-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-bottom-right a{
+    color: #ffffff;
+
+    font-size: 13px;
+}
+
+ /* ================================================= */
+/* ------------------ End CSS ------------------- */
+/* ================================================= */
