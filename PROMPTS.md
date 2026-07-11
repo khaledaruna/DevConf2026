@@ -1,0 +1,1 @@
+I'm designing a dev conference landing page where include header-footer, hero section, speaker section, pricing section but i want to add a new section. Colud you help me to build the section
